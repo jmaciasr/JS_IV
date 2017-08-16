@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+    background-size:110px 200px;
+    background-repeat:repeat-x;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 1024px;
+}
+
+.controls {
+    position: absolute;
+    top: 2.5%;
+    right: 1.5%;
+}
+
+.controls img {
+    cursor: pointer;
+}
+
+.show-number {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    font-family: arial;
+    margin-left: 1.5%;
+    position: absolute;
+    top: 2.5%;
+
+    
+}
+
+
+.back,
+.next {
+    width: 70px;
+}
+
